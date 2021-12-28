@@ -37,7 +37,7 @@ int main()
         /*
             printf(Response(Substring(buff, s));
         */
-        printf(strstr(buff, s) ? "Yes\n" : "No\n");
+        printf(Response(strstr(buff, s) != NULL));
     }
 
     return 0;
