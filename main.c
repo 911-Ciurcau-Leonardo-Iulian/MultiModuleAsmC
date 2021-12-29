@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 /* 
     from ReadFirst.asm 
@@ -35,7 +34,6 @@ int main()
     {
         scanf("%s", buff);
         printf(Response(Substring(buff, s)));
-        // printf(Response(strstr(buff, s) != NULL));
     }
 
     return 0;
