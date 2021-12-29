@@ -34,10 +34,8 @@ int main()
     for (int i = 2; i <= n; i++)
     {
         scanf("%s", buff);
-        /*
-            printf(Response(Substring(buff, s));
-        */
-        printf(Response(strstr(buff, s) != NULL));
+        printf(Response(Substring(buff, s)));
+        // printf(Response(strstr(buff, s) != NULL));
     }
 
     return 0;
