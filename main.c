@@ -23,12 +23,10 @@ int main()
 {
     int n;
     char s[101];
-    scanf("%d", &n);
-    scanf("%s", s);
-    /*1st function*/
-    // if (ReadFirst(&n, s) == -1) 
-    //    return 0;
-    /*end*/
+    if (ReadFirst(&n, s) == -1) 
+    {
+       return 0;
+    }
     char buff[101];
     for (int i = 2; i <= n; i++)
     {
